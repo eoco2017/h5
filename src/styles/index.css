@@ -1,0 +1,217 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+	outline: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0 auto !important;
+	font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+		"Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+	line-height: 1;
+	color: #333;
+	-webkit-text-size-adjust: 100% !important;
+	text-size-adjust: 100% !important;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+blockquote {
+	display: block;
+}
+
+img {
+	border: 0 none;
+	vertical-align: top;
+}
+
+em,
+strong {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+input,
+select,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-family: inherit;
+}
+
+input {
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	-webkit-appearance: none;
+}
+
+textarea {
+	-webkit-appearance: none;
+	overflow-y: auto;
+	overflow-x: hidden;
+	resize: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html {
+    --UI-BG: #fff;
+    --UI-BG-1: #f7f7f7;
+    --UI-BG-2: #fff;
+    --UI-BG-3: #f7f7f7;
+    --UI-BG-4: #4c4c4c;
+    --UI-BG-5: #fff;
+    --UI-FG: #000;
+    --UI-FG-0: rgba(0, 0, 0, 0.9);
+    --UI-FG-HALF: rgba(0, 0, 0, 0.9);
+    --UI-FG-1: rgba(0, 0, 0, 0.5);
+    --UI-FG-2: rgba(0, 0, 0, 0.3);
+    --UI-FG-3: rgba(0, 0, 0, 0.1);
+	--UI-FG-4: rgba(0, 0, 0, 0.8);
+}
+
+.img {
+	width: 100%;
+	display: block;
+}
+
+#app {
+	width: 100%;
+	height: 100%;
+}
+
+.van-cell {
+	font-size: 28px;
+	padding: 16px 20px;
+	background-color: transparent;
+}
+
+.van-cell::after{
+	right: 20px;
+	left: 20px;
+}
+
+.van-cell__value {
+	font-weight: bold;
+	color: #000000 !important;
+}
+
+.van-cell__title {
+	color: #646566 !important;
+	font-size: 28px
+}
+
+.cell-suffix {
+	font-size: 24px;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.mb-10 {
+	margin-bottom: 10px!important;
+}
+
+.mb-30 {
+	margin-bottom: 30px!important;
+}
+
+.mr-6 {
+	margin-right: 6px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.p-25 {
+	padding:0 25px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
